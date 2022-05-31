@@ -1,0 +1,20 @@
+.main{
+    max-width: 65%;
+    margin: auto;
+    font-size: 1rem;
+}
+.main p {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.card{
+    max-width: 65%;
+    margin: auto;
+    font-size: 1rem;
+    margin-top: 2rem;
+    border: 1.5px solid #e5eaf0;
+    padding:1rem;
+    border-radius: 5px;
+}
