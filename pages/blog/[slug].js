@@ -6,8 +6,6 @@ import { useRouter } from "next/router";
 export default function Slug(props) {
   const router = useRouter();
 
-console.log(props)
-
   return (
     <div className={styles.doryann}>
       <div className="container">

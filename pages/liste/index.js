@@ -7,14 +7,16 @@ export default function Liste(props) {
   return (
     <div className={styles.main}>
       <h1 className="text-center mt-3">La liste des utilisateurs</h1>
-      {props.data.map((item) => (
-        <div className="d-flex justify-content-between mt-3 border border-2  align-items-center pe-3 ps-3 p-2 rounded" key={uuidv4()}>
-          <p>{item.name}</p>
-          <Link href={`/liste/${item.id.toString()}`}>
-            <a> 🧾 Contacter</a>
-          </Link>
-        </div>
-      ))}
+      
+        {props.data.map((item) => (
+          <div className="d-flex justify-content-between mt-3 border border-2  align-items-center pe-3 ps-3 p-2 pb-2 rounded flex-column flex-sm-row" key={uuidv4()}>
+            <p>{item.name}</p>
+            <Link  href={`/liste/${item.id.toString()}`}>
+              <a className="mt-2">Contacter 💬 </a>
+            </Link>
+          </div>
+        ))}
+     
     </div>
   );
 }
