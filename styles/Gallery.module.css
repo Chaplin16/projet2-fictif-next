@@ -5,6 +5,8 @@
     width: 200px;
     height: auto;
     margin-right:13px;
+    transition: all 300ms;
+    margin-bottom:2rem;
 }
 
 .card span {
@@ -13,4 +15,9 @@
     padding: 0.3rem 1rem;
     border-radius: 15px;
     text-align: center;
+}
+
+
+.card:hover{
+    transform: scale(1.1)
 }

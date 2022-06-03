@@ -2,6 +2,8 @@
     max-width: 65%;
     margin: auto;
     font-size: 1rem;
+    height: 100%;
+    max-height: 100%;
     
 }
 .main p {
@@ -22,4 +24,13 @@
 
 .main a:hover{
     color: white;
+}
+
+.card {
+    margin: auto;
+    border: 1px solid grey;
+    max-width: 19rem;
+    margin-top:5rem;
+    padding: 2rem;
+    margin-bottom:5rem;
 }

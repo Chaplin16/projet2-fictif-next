@@ -1,3 +1,16 @@
+.doryann{
+    height:100%!important;
+    min-height: 100%;
+    margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 75vh;
+}
+
+.doryann h1{
+    padding-top:2rem;
+}
+
 .main{
     max-width: 80%;
     text-align: center;

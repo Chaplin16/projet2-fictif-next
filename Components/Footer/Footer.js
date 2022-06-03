@@ -7,7 +7,7 @@ import logo from "../../public/assets/logo-aurore-creation-web.png"
 export default function Footer() {
   return (
     <>
-    <div className={styles.footer}>
+    <footer className={styles.footer}>
         <div className='d-flex flex-column justify-content-center'>
             <Link href="https://aurorecreationweb.fr">
                 <a className='text-white text-decoration-none'>Aurore Création Web</a>
@@ -26,7 +26,7 @@ export default function Footer() {
                 <a> Pixabay</a>
             </Link>
         </div>
-    </div>
+    </footer>
     </>
   )
 }

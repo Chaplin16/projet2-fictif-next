@@ -9,6 +9,10 @@ import img3 from "../public/assets/ville-ny-3.jpg"
 import img4 from "../public/assets/ville-ny-4.jpg"
 import img5 from "../public/assets/ville-ny-5.jpg"
 import img6 from "../public/assets/ville-ny-6.jpg"
+import img7 from "../public/assets/ville-ny-7.jpg"
+import img8 from "../public/assets/ville-ny-8.jpg"
+import img9 from "../public/assets/ville-ny-9.jpg"
+import img10 from "../public/assets/ville-ny-10.jpg"
 
 
 
@@ -23,21 +27,38 @@ export default function Gallery() {
     alt: "New York: Pont de Brooklyng 😍"
   },
   {
-    url: img4,
-    alt: "Pont de San Fransisco 😀"
-  },
-  {
     url: img6,
     alt: "Lumière de la ville ✨"
   },
   {
     url: img3,
-    alt: "Touche le ciel 😃"
+    alt: "Rose de nuit 😃"
+  },
+  {
+    url: img4,
+    alt: "San Fransisco 👌"
   },
   {
     url: img5,
     alt: "Ahhh Paris Beautiful! 👌"
+  },
+  {
+    url: img9,
+    alt: "Reflets féériques 👌"
+  },
+  {
+    url: img7,
+    alt: "New Yord au clair de lune 👌"
+  },
+  {
+    url: img8,
+    alt: "Circulation by night"
+  },
+  {
+    url: img10,
+    alt: "Dauphins de nuit"
   }
+
 ];
   return (
     <div>
@@ -49,7 +70,6 @@ export default function Gallery() {
             <span>{item.alt}</span>
           </p>
         ))}
-        ;
       </div>
     </div>
   );

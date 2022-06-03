@@ -7,8 +7,8 @@ export default function User(props) {
     const router = useRouter();
 
     return (
-        <div className={styles.card}>
-            <div>
+        <div>
+            <div className={styles.card}>
                 <h1>{props.data.name}</h1>
                 <h2 className="text-muted">Username: {props.data.username}</h2>
                 <ul className="card list-group list-group-flush rounded">

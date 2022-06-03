@@ -9,9 +9,11 @@ export default function Slug(props) {
 console.log(props)
 
   return (
-    <div className="container">
-      <h1 className="text-center mt-3">{props.data.title}</h1>
-      <p className="text-center">{props.data.body}</p>
+    <div className={styles.doryann}>
+      <div className="container">
+        <h1 className="text-center">{props.data.title}</h1>
+        <p className="text-center">{props.data.body}</p>
+      </div>
     </div>
   );
 }
