@@ -8,7 +8,7 @@ export default function Blog(props) {
     <div>
       <div className={styles.main}>
         <div>
-          <h1>Bienvenue sur le blog</h1>
+          <h1>Bienvenue sur le blog 😃</h1>
           <p>Voici les articles</p>
         </div>
         <div className={styles.content}>

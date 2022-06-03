@@ -1,0 +1,16 @@
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    margin-right:13px;
+}
+
+.card span {
+    background-color: rgb(215, 221, 219);
+    margin-top:1rem;
+    padding: 0.3rem 1rem;
+    border-radius: 15px;
+    text-align: center;
+}

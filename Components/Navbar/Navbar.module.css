@@ -9,4 +9,10 @@
     margin: 10px;
     color: #fff;
     text-decoration: none;
+    transition: all 300ms;
+}
+
+.navbar a:hover{
+    color: #000;
+
 }

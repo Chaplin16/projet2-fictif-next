@@ -15,6 +15,9 @@ export default function Navbar() {
           <Link href="/liste">
               <a>Liste</a>
           </Link>
+          <Link href="/gallery">
+              <a>Gallerie Photos</a>
+          </Link>
       </nav>
     )
   }

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import imgBlog from '../public/assets/blog.png'
 import styles from '../styles/Home.module.css'
 import Link from "next/link";
 
@@ -13,9 +14,10 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <h1 className={styles.title}>Bienvenue sur Code.io</h1>
-        <p className={styles.subTitle}>Le blog communautaire des afficionados de developpement web</p>
+        <p className={styles.subTitle}>Le blog communautaire des afficionados du developpement web</p>
 
         <div className={styles.content}>
+          {/* first card */}
           <div className={styles.card}>
             <div className="card-body">
               <h2 className={styles.h2}>Lisez les articles</h2>
@@ -27,10 +29,11 @@ export default function Home() {
                 par article.
               </p>
               <Link href="/blog" className="card-link">
-                <a>Visitez le blog</a>
+                <a>👉 Visitez le blog</a>
               </Link>
             </div>
           </div>
+        {/* second card */}
           <div className={styles.card}>
             <div className="card-body">
               <h2 className={styles.h2}>Faites un tour vers la liste des membres</h2>
@@ -41,10 +44,14 @@ export default function Home() {
                 Ajoutez, inviter et discuter avec les différents membres.
               </p>
               <Link href="/liste" className="card-link">
-                <a>Découvrez la liste des membres</a>
+                <a> 👉 Découvrez la liste des membres</a>
               </Link>
             </div>
           </div>
+        </div>
+        {/* image blog */}
+        <div>
+          < Image src={imgBlog} alt=""  width={300} height={200} layout="responsive"/>
         </div>
       </div>
     </>
