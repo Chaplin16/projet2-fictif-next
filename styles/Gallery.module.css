@@ -10,14 +10,18 @@
 }
 
 .card span {
-    background-color: rgb(215, 221, 219);
+    background-color: rgb(238, 232, 231);
     margin-top:1rem;
     padding: 0.3rem 1rem;
     border-radius: 15px;
     text-align: center;
+    transition: all 300ms;
 }
 
-
+.card span:hover{
+    background: rgb(250, 219, 250);
+}
 .card:hover{
-    transform: scale(1.1)
+    transform: scale(1.05)
 }
+

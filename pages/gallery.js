@@ -60,6 +60,7 @@ export default function Gallery() {
   }
 
 ];
+
   return (
     <div>
       <h1 className="text-center p-3">Galerie Photos</h1>
